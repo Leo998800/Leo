@@ -15,7 +15,7 @@ except ModuleNotFoundError:
 	
 
 try:
-	prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
+	prox= requests.get('https://raw.githubusercontent.com/leo/data/main/proxies.txt').text
 	open('proxies.txt','w').write(proxies)
 except Exception as e:
 	print('\x1b[1;95m[√] LOADING...')
@@ -82,7 +82,7 @@ for mtc in range(10000):
 #new ua
 ugen=[]
 for agent in range(10000):
-        aa='Mozilla/5.0 (Linux; Android 6.0.1;'
+        aa='Mozilla/5.0 (Linux; Android 6.0.2;'
         b=random.choice(['6','7','8','9','10','11','12'])
         c='en-us; 10; T-Mobile myTouch 3G Slide Build/'
         d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -160,7 +160,7 @@ logo=("""\033[1;37m
  Facebook  : LEO
  Tool Name : PAKHTOON
  Tool type : PAID
- Tool Version:0.2
+ Version:7.5
 ----------------------------------------------
  Sorry DON'T USE MY TOOL 💔
 \033[1;37m----------------------------------------------""")
@@ -423,13 +423,9 @@ def menu():
                         elif xd in ['6','06']:
                                 wx=('Dsj9JMWoixk4Qsje0Ng3nA')
                                 os.system(f'xdg-open https://chat.whatsapp.com/{wx}');menu()
-                        elif xd in ['7','07']:
-                              os.system('xdg-open https://mediafire.com/file/y1wvgc2zqqunxbn/AKING_VPN1.0.apk/file');menu() 
-                        elif xd in ['8','08']:
-                                os.system('xdg-open https://www.facebook.com/100084680097792/posts/pfbid0CZ9vn6qRF78vmdk4V3ja7Rx5mZa1hsmMaaTNXms2kkVyt1EZ7k5seWMjQd7pDfvvl/?app=fbl');menu()
-                        elif xd in ['0','00']:
+		
                                 exit(' Thanks for use 🥰 ')
-                        else:
+                        
                                 exit(' Option not found in menu...')
 
 def pak():
@@ -720,7 +716,7 @@ def api1(ids,names,passlist):
                         fbrv = '0'
                         fban = 'FB4A'
                         fbpn = 'com.facebook.katana'
-                        ua = 'Davik/2.1.0 (Linux; U; Android '+android_version+'.0.1; '+model+' Build/'+build+') [FBAN/'+fban+';FBAV/'+fbav+';FBBV/'+fbbv+';FBDM/{density=2.625,width=1080,height=1920};FBLC/'+fblc+';FBRV/'+str(random.randint(000000000,999999999))+';FBCR/'+fbcr+';FBMF/'+fbmf+';FBBD/'+fbbd+';FBPN/'+fbpn+';FBDV/'+fbdv+';FBSV/'+fbsv+';FBOP/19;FBCA/'+fbca+';]'
+                        ua = 'Davik/2.1.0 (Linux; U; Android '+android_version+'.0.2; '+model+' Build/'+build+') [FBAN/'+fban+';FBAV/'+fbav+';FBBV/'+fbbv+';FBDM/{density=2.625,width=1080,height=1920};FBLC/'+fblc+';FBRV/'+str(random.randint(000000000,999999999))+';FBCR/'+fbcr+';FBMF/'+fbmf+';FBBD/'+fbbd+';FBPN/'+fbpn+';FBDV/'+fbdv+';FBSV/'+fbsv+';FBOP/19;FBCA/'+fbca+';]'
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
@@ -811,7 +807,7 @@ def rndm(ids,passlist):
                         fbrv = '0'
                         fban = 'FB4A'
                         fbpn = 'com.facebook.katana'
-                        ua = 'Davik/2.1.0 (Linux; U; Android '+android_version+'.0.1; '+model+' Build/'+build+') [FBAN/'+fban+';FBAV/'+fbav+';FBBV/'+fbbv+';FBDM/{density=2.625,width=1080,height=1920};FBLC/'+fblc+';FBRV/'+str(random.randint(000000000,999999999))+';FBCR/'+fbcr+';FBMF/'+fbmf+';FBBD/'+fbbd+';FBPN/'+fbpn+';FBDV/'+fbdv+';FBSV/'+fbsv+';FBOP/19;FBCA/'+fbca+';]'
+                        ua = 'Davik/2.1.0 (Linux; U; Android '+android_version+'.0.2; '+model+' Build/'+build+') [FBAN/'+fban+';FBAV/'+fbav+';FBBV/'+fbbv+';FBDM/{density=2.625,width=1080,height=1920};FBLC/'+fblc+';FBRV/'+str(random.randint(000000000,999999999))+';FBCR/'+fbcr+';FBMF/'+fbmf+';FBBD/'+fbbd+';FBPN/'+fbpn+';FBDV/'+fbdv+';FBSV/'+fbsv+';FBOP/19;FBCA/'+fbca+';]'
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
